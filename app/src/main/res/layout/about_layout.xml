@@ -6,7 +6,12 @@
     android:gravity="center_vertical|center_horizontal"
     android:orientation="vertical">
 
-
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:src="@drawable/closeicon"
+        android:id="@+id/btnClose"/>
     <TextView
         android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
@@ -31,12 +36,7 @@
         android:layout_height="wrap_content"
         android:text="Tel No: 09120186940"
         android:textSize="16sp"/>
-    <ImageButton
-        android:layout_marginTop="10dp"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:src="@drawable/closeicon"
-        android:id="@+id/btnClose"/>
+
 
 
 

@@ -14,7 +14,8 @@ class MovieModel @Inject constructor(){
     fun Movie(): MovieInterface {
         val retrofit = Retrofit.Builder()
             .baseUrl(Consts.baseUrl)
-            .addConverterFactory(GsonConverterFactory.create())
+            .addConverterFactory(ApiWorker.gsonConverter)
+            .client(ApiWorker.client)
             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .build()
         return retrofit.create(MovieInterface::class.java)
