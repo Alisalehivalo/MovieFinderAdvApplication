@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="210dp"
+    android:gravity="center_horizontal|center_vertical"
+    android:layout_height="170dp"
+    tools:context=".Features.ArchiveData.MovieFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About US"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+    <LinearLayout
+        android:layout_width="90dp"
+        android:layout_height="2dp"
+        android:background="#3F51B5"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Application: Movie Finder"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developer: Eng. AliAkbar Salehi"
+
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="eMail: akbarsalehi@gmail.com"
+
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tel No: 09120186940"
+        android:textSize="14sp"/>
+
+
+
+</LinearLayout>
